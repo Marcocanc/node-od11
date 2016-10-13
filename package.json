@@ -1,8 +1,8 @@
 {
   "name": "node-od11",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node library to interface with the Teenage Engineering OD-11",
-  "main": "lib/OD-11.js",
+  "main": "lib/OD11.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
