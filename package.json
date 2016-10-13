@@ -1,14 +1,19 @@
 {
   "name": "node-od11",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Node library to interface with the Teenage Engineering OD-11",
-  "main": "OD-11.js",
+  "main": "lib/OD-11.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Marco Cancellieri",
+  "repository": "Marcocanc/node-od11",
   "license": "MIT",
   "dependencies": {
     "ws": "^1.1.1"
-  }
+  },
+  "files": [
+    "lib/",
+    "LICENSE"
+  ]
 }
