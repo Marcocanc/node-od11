@@ -1,0 +1,14 @@
+{
+  "name": "node-od11",
+  "version": "1.0.0",
+  "description": "Node library to interface with the Teenage Engineering OD-11",
+  "main": "OD-11.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marco Cancellieri",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^1.1.1"
+  }
+}
