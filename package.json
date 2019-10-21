@@ -10,7 +10,7 @@
   "repository": "Marcocanc/node-od11",
   "license": "MIT",
   "dependencies": {
-    "ws": "^1.1.5"
+    "ws": "^3.3.1"
   },
   "files": [
     "lib/",
