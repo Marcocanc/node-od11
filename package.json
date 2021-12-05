@@ -2,7 +2,7 @@
   "name": "node-od11",
   "version": "1.0.3",
   "description": "Node library to interface with the Teenage Engineering OD-11",
-  "main": "lib/OD11.js",
+  "main": "dist/OD11.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +10,16 @@
   "repository": "Marcocanc/node-od11",
   "license": "MIT",
   "dependencies": {
-    "ws": "^3.3.1"
+    "@types/events": "^3.0.0",
+    "@types/ws": "^8.2.1",
+    "ws": "^3.3.3"
   },
   "files": [
-    "lib/",
+    "dist/",
     "LICENSE"
-  ]
+  ],
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "typescript": "^4.5.2"
+  }
 }
